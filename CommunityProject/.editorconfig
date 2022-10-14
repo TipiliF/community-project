@@ -4,7 +4,7 @@ root = true
 charset = utf-8
 
 # Standard properties
-end_of_line = native
+end_of_line = lf
 insert_final_newline = true
 
 # Microsoft .NET properties
