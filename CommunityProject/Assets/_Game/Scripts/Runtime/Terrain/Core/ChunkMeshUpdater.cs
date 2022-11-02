@@ -35,8 +35,8 @@ namespace BoundfoxStudios.CommunityProject.Terrain.Core
 				MeshUpdateFlags.DontRecalculateBounds | MeshUpdateFlags.DontValidateIndices);
 
 			// TODO: Could be a bit more performant if we do this ourselves in the chunk jobs.
-			_surfaceMesh.RecalculateNormals();
-			_wallMesh.RecalculateNormals();
+//		 _surfaceMesh.RecalculateNormals();
+	//		 _wallMesh.RecalculateNormals();
 		}
 	}
 }
